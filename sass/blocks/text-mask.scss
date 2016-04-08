@@ -1,0 +1,24 @@
+.text-mask {
+  display: block;
+
+  text-align: left;
+  border-bottom: 1px solid $secondary-color;
+  background-color: #156417;
+}
+
+@media (max-width: $small-screen) {
+  .text-mask  {
+    padding: 0 2px;
+
+    line-height: 8px;
+  }
+}
+
+@media (min-width: 800px) and (min-height: 1280px) {
+  .text-mask {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+}

@@ -2,6 +2,10 @@
   padding: 0 2px;
 
   text-align: left;
+  background-color: #156417;
+  &__link {
+    text-decoration: underline;
+  }
 }
 
 @media (max-width: $small-screen) {
@@ -30,7 +34,8 @@
 
 @media (min-width: 800px) and (min-height: 1280px) {
   .conditions-row {
-    padding: 15px 10px;
+    padding-bottom: 33px;
+
     font-size: 12px;
     line-height: 14px;
   }
