@@ -1,0 +1,71 @@
+.top-row {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  padding: 4px 0;
+
+  margin-bottom: 2px;
+
+  box-sizing: border-box;
+  background-color: #156417;
+
+  &__main-logo {
+    width: 120px;
+    height: 30px;
+  }
+}
+
+@media (max-width: $small-screen) {
+  .top-row {
+    padding: 0;
+    &__main-logo {
+      width: 80px;
+      height: 20px;
+    }
+  }
+}
+
+@media (min-width: $mobile-width) and (min-height: 461px) {
+  .top-row {
+    padding: 10px 0;
+    margin-bottom: 6px;
+  }
+}
+
+@media (min-width: 360px) and (min-height: 453px) {
+  .top-row {
+    padding: 10px 0;
+    margin-bottom: 6px;
+    &__main-logo {
+      width: 150px;
+      height: auto;
+    }
+  }
+}
+
+@media (min-width: 360px) and (min-height: 521px) {
+  .top-row {
+    padding: 12px 0;
+    margin-bottom: 8px;
+  }
+}
+
+@media (min-width: 600px) and (min-height: 840px) {
+  .top-row {
+    padding: 0px 0;
+    margin-bottom: 2px;
+    &__main-logo {
+      width: 150px;
+    }
+  }
+}
+
+@media (min-width: 800px) and (min-height: 1280px) {
+  .top-row {
+    padding: 20px 0;
+    margin-bottom: 8px;
+    &__main-logo {
+      width: 300px;
+    }
+  }
+}

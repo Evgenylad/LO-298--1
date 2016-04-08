@@ -1,0 +1,15 @@
+.content {
+  margin-bottom: 2px;
+}
+
+@media (max-width: $small-screen) {
+  .content {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 360px) and (min-height: 453px) {
+  .content {
+    margin-bottom: 5px;
+  }
+}

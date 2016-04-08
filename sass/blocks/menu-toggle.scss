@@ -1,0 +1,83 @@
+.menu-toggle {
+  position: absolute;
+  top: 8px;
+  right: 20px;
+
+  width: 40px;
+  height: 30px;
+
+  z-index: 10;
+
+  background-color: #156417;
+  border: none;
+  outline: none;
+  &::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    width: 40px;
+    height: 3px;
+
+    background-color: #ffffff;
+    box-shadow: 0 10px 0 0 #ffffff,
+    0 20px 0 0 #ffffff;
+  }
+}
+
+@media (max-width: $small-screen) {
+  .menu-toggle {
+    top: 3px;
+    right: 10px;
+
+    width: 30px;
+    height: 10px;
+
+    &::after {
+
+      width: 30px;
+      height: 2px;
+
+      background-color: #ffffff;
+      box-shadow: 0 5px 0 0 #ffffff,
+      0 10px 0 0 #ffffff;
+    }
+  }
+}
+
+@media (min-width: $mobile-width) and (min-height: 461px) {
+  .menu-toggle {
+    top: 17px;
+
+    &::after {
+      height: 4px;
+    }
+  }
+}
+
+@media (min-width: 600px) and (min-height: 840px) {
+  .menu-toggle {
+    top: 7px;
+
+    &::after {
+      height: 5px;
+
+      box-shadow: 0 10px 0 0 #ffffff,
+      0 20px 0 0 #ffffff;
+    }
+  }
+}
+
+@media (min-width: 800px) and (min-height: 1280px) {
+  .menu-toggle {
+    top: 30px;
+
+    &::after {
+      height: 5px;
+
+      box-shadow: 0 10px 0 0 #ffffff,
+      0 20px 0 0 #ffffff;
+    }
+  }
+}
