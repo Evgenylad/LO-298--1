@@ -1,28 +1,18 @@
 .menu-toggle {
   position: absolute;
-  top: 8px;
+  top: 5px;
   right: 20px;
 
-  width: 40px;
-  height: 30px;
+  width: 30px;
+  height: 20px;
 
   z-index: 10;
 
   background-color: #156417;
   border: none;
   outline: none;
-  &::after {
-    content: "";
-    position: absolute;
-    right: 0;
-    top: 0;
-
-    width: 40px;
-    height: 3px;
-
-    background-color: #ffffff;
-    box-shadow: 0 10px 0 0 #ffffff,
-    0 20px 0 0 #ffffff;
+  &__img {
+    fill: #ffffff;
   }
 }
 
@@ -31,53 +21,19 @@
     top: 3px;
     right: 10px;
 
-    width: 30px;
+    width: 20px;
     height: 10px;
-
-    &::after {
-
-      width: 30px;
-      height: 2px;
-
-      background-color: #ffffff;
-      box-shadow: 0 5px 0 0 #ffffff,
-      0 10px 0 0 #ffffff;
-    }
   }
 }
 
-@media (min-width: $mobile-width) and (min-height: 461px) {
+@media (min-width: 360px) and (min-height: 520px) {
   .menu-toggle {
-    top: 17px;
-
-    &::after {
-      height: 4px;
-    }
+    top: 10px;
   }
 }
 
-@media (min-width: 600px) and (min-height: 840px) {
+@media (min-width: 375px) and (min-height: 559px) {
   .menu-toggle {
-    top: 7px;
-
-    &::after {
-      height: 5px;
-
-      box-shadow: 0 10px 0 0 #ffffff,
-      0 20px 0 0 #ffffff;
-    }
-  }
-}
-
-@media (min-width: 800px) and (min-height: 1280px) {
-  .menu-toggle {
-    top: 30px;
-
-    &::after {
-      height: 5px;
-
-      box-shadow: 0 10px 0 0 #ffffff,
-      0 20px 0 0 #ffffff;
-    }
+    top: 10px;
   }
 }

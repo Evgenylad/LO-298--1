@@ -13,9 +13,9 @@
   },
   "homepage": "https://github.com/Evgenylad/LO-298--1.git",
   "devDependencies": {
-    "autoprefixer": "6.3.3",
     "editorconfig-tools": "0.1.1",
     "grunt": "0.4.5",
+    "grunt-autoprefixer": "^3.0.4",
     "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "0.6.1",

@@ -2,9 +2,8 @@
   position: relative;
   display: flex;
   justify-content: flex-start;
-  padding: 4px 0;
 
-  margin-bottom: 2px;
+  margin-bottom: 1px;
 
   box-sizing: border-box;
   background-color: #156417;
@@ -25,16 +24,9 @@
   }
 }
 
-@media (min-width: $mobile-width) and (min-height: 461px) {
-  .top-row {
-    padding: 10px 0;
-    margin-bottom: 6px;
-  }
-}
-
 @media (min-width: 360px) and (min-height: 453px) {
   .top-row {
-    padding: 10px 0;
+    padding: 5px 0;
     margin-bottom: 6px;
     &__main-logo {
       width: 150px;
@@ -45,8 +37,7 @@
 
 @media (min-width: 360px) and (min-height: 521px) {
   .top-row {
-    padding: 12px 0;
-    margin-bottom: 8px;
+    margin-bottom: 1px;
   }
 }
 
