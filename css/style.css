@@ -408,8 +408,8 @@ body {
     border: 2px solid #dbef1b;
     border-radius: 15px;
     background-color: rgba(48, 50, 41, 0.8);
-    -webkit-animation: move-left 2s;
-            animation: move-left 2s; }
+    -webkit-animation: zoomIn 1.2s;
+            animation: zoomIn 1.2s; }
   .image-row__img {
     width: 100%;
     height: auto;
